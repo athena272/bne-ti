@@ -12,7 +12,7 @@ def bubbleSort(list):
     return list
 
 #reverse bubbleSort
-def inverseBubbleSort(list):
+def reverseBubbleSort(list):
     for passnum in range(len(list)-1,0,-1):
         for i in range(passnum):
             if list[i]<list[i+1]:
@@ -25,6 +25,6 @@ def inverseBubbleSort(list):
 #main code
 list = [5, 1, 4, 2, 8]
 print(bubbleSort(list))
-print(inverseBubbleSort(list))
+print(reverseBubbleSort(list))
 
 #Link repositorio: https://github.com/athena272/BNE_TI
