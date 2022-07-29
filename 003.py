@@ -1,8 +1,13 @@
-def bubbleSort(alist):
-    for passnum in range(len(alist)-1,0,-1):
-        for i in range(passnum):
-            if alist[i]>alist[i+1]:
-                temp = alist[i]
-                alist[i] = alist[i+1]
-                alist[i+1] = temp
+#Link repositorio: https://github.com/athena272/BNE_TI
 
+def bubbleSort(list):
+    for passNum in range(len(list)-1,0,-1):
+        for i in range(passNum):
+            if list[i]>list[i+1]:
+                temp = list[i]
+                list[i] = list[i+1]
+                list[i+1] = temp
+
+list = []
+
+#Link repositorio: https://github.com/athena272/BNE_TI
