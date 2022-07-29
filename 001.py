@@ -1,3 +1,5 @@
+#Link repositorio: https://github.com/athena272/BNE_TI
+
 def fat(num):
     if num == 0:
         return 1 
@@ -36,3 +38,4 @@ while(cont <= 15):
     
 print(somatoria)
 
+#Link repositorio: https://github.com/athena272/BNE_TI
