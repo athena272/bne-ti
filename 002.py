@@ -1,3 +1,6 @@
+#Link repositorio: https://github.com/athena272/BNE_TI
+
+
 def Pesquisar(vet, n):
   if n in vet:
     print(f"Valor {n} encontrado")
@@ -6,4 +9,7 @@ def Pesquisar(vet, n):
     print(f"Valor {n} nao encontrado")
     
 Pesquisar([9, 7, 2, 16, 4], 4)
+
+#Link repositorio: https://github.com/athena272/BNE_TI
+
   
