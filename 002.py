@@ -1,6 +1,5 @@
 #Link repositorio: https://github.com/athena272/BNE_TI
 
-
 def Pesquisar(vet, n):
   if n in vet:
     print(f"Valor {n} encontrado")
