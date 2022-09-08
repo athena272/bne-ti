@@ -1,7 +1,32 @@
-﻿int a = 5, b = 10, c = 15, d = 20; // declaramos quatro variáveis do tipo int
-Console.WriteLine(a + d); // operação de soma
-Console.WriteLine(c - a); // operação de subtração
-Console.WriteLine(b * c); // operação de multiplicação
-Console.WriteLine(d / b); // operação de divisão
-Console.WriteLine(c % b); // operação de módulo (resto de divisão)
-Console.ReadKey();
+﻿using System;
+
+namespace Sample
+{
+    class Problema3
+    {
+        public static void Main(string[] args)
+        {
+            string userInput;
+            double valorPresente, taxaJuros, periodo, rendimento;
+            Console.Write("Informe o valor presente R$");
+            userInput = Console.ReadLine();
+            /* Converts to double type */
+            valorPresente = Convert.ToDouble(userInput);
+
+            Console.Write("Informe a taxa de juros: ");
+            userInput = Console.ReadLine();
+            /* Converts to double type */
+            taxaJuros = Convert.ToDouble(userInput);
+            taxaJuros = taxaJuros / 100;
+
+            Console.Write("Informe o período em meses: ");
+            userInput = Console.ReadLine();
+            /* Converts to double type */
+            periodo = Convert.ToDouble(userInput);
+
+            rendimento = valorPresente * (Math.Pow((1 + taxaJuros), periodo));
+            Console.WriteLine($"O rendimento foi de R${Math.Round(rendimento, 2)}");
+
+        }
+    }
+}
