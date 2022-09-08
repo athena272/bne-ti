@@ -1,2 +1,2 @@
 # BNE_TI
-Teste Logica BNE
+Repositório do BNE
